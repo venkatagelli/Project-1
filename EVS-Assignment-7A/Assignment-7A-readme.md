@@ -1,12 +1,38 @@
-Channel size calculation formula
+ 
 
-![1561379630691](C:\Users\VENKATA\AppData\Roaming\Typora\typora-user-images\1561379630691.png)
+###### Channel size calculation formula
 
-Receptive Field size calculation formula
+ 
 
-![1561379677870](C:\Users\VENKATA\AppData\Roaming\Typora\typora-user-images\1561379677870.png)
+n-out = ((n-in + 2p - k) / s) +1
 
+ 
 
+###### Receptive Field size calculation formula
+
+n-out = ((n-in + 2p - k)s) +1
+
+J-out = J-in * s
+
+r-out = r-in + (k-1) * s
+
+start-out = start-in +((k-1)/2 - p) * J-in
+
+###### where
+
+ 
+
+n-in : number of input features
+
+n-out : number of output features
+
+k : convolution kernel size
+
+p : convolution padding size
+
+s : convolution stride size
+
+ 
 
 J-out ==> Jump calculated for next  operation
 
