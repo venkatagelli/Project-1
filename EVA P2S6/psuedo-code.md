@@ -1,4 +1,20 @@
-#### __init__
+#### Phase 2 Assignment 6: QLearning
+
+##### Contributed by:
+
+###### Venkata Badari Nadh Gelli
+
+###### Gopinath Venkatesan
+
+###### Anurag Das
+
+###### Venugopal
+
+###### Madhura M
+
+
+
+#### init__
 
 call ReinforcementAgent.__init__ by passing command line arguments and instantiate class variables like epsilon, alpha, discount, numberoftrainings, gamma, number of episode, number of iterations, action
 
